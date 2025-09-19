@@ -2,3 +2,13 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
+
+.countries-flags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.flag-img{
+    height: 60px;
+    width: 100px;
+}
